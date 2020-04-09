@@ -1,0 +1,10 @@
+table {
+background-color: Azure;
+color: Navy;
+border: 5px solid gray;
+}
+
+td:hover {
+background-color: black;
+color: white;
+}
