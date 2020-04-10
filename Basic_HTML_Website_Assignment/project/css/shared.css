@@ -94,6 +94,18 @@ section {
     margin-left: auto;
 }
 
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.clearfix:after,
+.container:after,
+.navbar:after {
+    clear: both;
+    display: table;
+    content: " ";
+} 
 .wrap {
     height: 100%;
     width: 100%;
@@ -129,6 +141,8 @@ HOME SECTION STYLES
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;					   
     width: 100%;
     display: block;
     height: auto;
@@ -191,7 +205,7 @@ Contact STYLES
     border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100, 65, 0, 0.3);
-    box-shadow: -1px -1px 1px 0 rgba(0,0,0,1), 2px 2px 10px 0 rgba(0,0,0,0.5);
+    box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
 .reservation h2 { /*this is the H2 that is in the reservation section not all h2 tags*/
@@ -218,7 +232,7 @@ Contact STYLES
 }
 
 .reservation p {
-    color: #12161B;
+    color: #13161B;
     width: 50%;
     margin: 0 auto;
 }
@@ -234,7 +248,7 @@ Contact STYLES
     margin: 2% auto;
     border-radius: 7px;
     background: rgb(227, 222, 222);
-    box-shadow: 2px 3px 3px 0px rgba(100, 65, 0, 0.3);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
     font-family: "Raleway", sans-serif;
 }
 
@@ -256,8 +270,8 @@ Contact STYLES
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input [type="text"] {
-    box-shadow: 0 0 10px rgba(100, 65, 0, 0.8);
+.reservation input [type="text"]:hover {
+    box-shadow: 0 0 18px rgba(100, 65, 0, 0.8);
 }
 
 .form-spacer {
@@ -265,7 +279,8 @@ Contact STYLES
 }
 
 .terms {
-    margin: 30px 1 px 0 0;
+    margin: 30px 1px 0 0;
+	margin-top: 13%				
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
@@ -303,7 +318,7 @@ Contact STYLES
 
 .submit input[type="submit"]:hover {
     color: #000;
-    background-color: #0D0E0F;
+    background-color: #8D8E8F;
     box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);
 } 
 
@@ -314,7 +329,7 @@ FOOTER STYLES
 #footer {
     background-color: rgba(100, 65, 0, 0.3);
     color: #000;
-    text-shadow: 2px 2px 0px 0 (0,0,0,0.4);
+    text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
     padding: 20px 50px 20px 50px;
     text-align: right;
 }
