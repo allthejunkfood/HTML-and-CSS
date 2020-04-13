@@ -87,7 +87,14 @@ section {
     display: block;
 }
 
-.container ,.container-fluid {
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -177,7 +184,8 @@ HOME SECTION STYLES
     font-size: 10px;
     font-weight: 900;
     padding: 5px 20px 20px 20px;
-    text-transform: uppercase;
+    border: 1px dotted #fff;
+	padding: 5px;
 }
 
 /*=====================================================
@@ -280,7 +288,7 @@ Contact STYLES
 
 .terms {
     margin: 30px 1px 0 0;
-	margin-top: 13%				
+	margin-top: 13%;				
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
