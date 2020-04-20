@@ -4,20 +4,10 @@
     <title>This is the one page website...of ONEPAGENESS!</title>
     <p>...or how I learned to love HTML</p>
     <link rel="stylesheet" type="text/css" href="one_page_website.css">
+    <script src="working.js"></script>
 </head>
 
-<nav>
-    <a href="one_page_website.html">HOME</a>
-    <br />
-    <a href="#picture">Jump to picture</a>
-    <br />
-    <a href="#vid">Jump to vid</a>
-    <br />
-    <a href="#contact">Jump to contact-form</a>
-</nav>
-
-<body>
-    <!-- Images used to open the lightbox -->
+<!-- Images used to open the lightbox -->
 <div class="row">
     <div class="column">
       <img src="img1.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
@@ -85,47 +75,3 @@
       </div>
     </div>
   </div>
-
-    <section>
-        <a id="picture">Picture</a>
-        <div>
-            <img src="https://s-media-cache-ak0.pinimg.com/736x/9a/8b/1d/9a8b1dcd7e3378281c476bd9f4108b61.jpg" alt="Thoon...Very thoon...">
-            <div>
-                Image!
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <a id="vid">Video</a>
-        <div>
-            Enjoy a nice video!
-            <div>
-                <iframe width="424" height="238" src="https://www.youtube.com/embed/kAQx7i0_DSg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <a id="contact">Contact</a>
-        <div>
-            Contact us!
-            <div class="contact">
-                <form action="" method="get">
-                    First Name: <input type="text" name="First_Name"><br />
-                    Email: <input type="text" name="Email"><br />
-                    Message: <input type="text" name="Message"><br />
-                    <input type="submit" value="Submit"><br />
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <script src="JS/one_page_website.js"></script>
-</body>
-
-<footer>
-    <p>Posted By: The Amazing Randall</p>
-    <p>Contact information: <a href="mailto:NotMyRealAddress@example.com">
-    NotMyRealAddress@Example.com</a>.</p>
-</footer>
