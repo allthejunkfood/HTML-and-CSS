@@ -150,11 +150,14 @@
 
           <div class="text-center">
           <form>
-              <a name="deals"><h1 class="text-primary my-5">Sign up for Movie Clup Rewards!</h1></a>
+              <a name="deals"><h1 class="text-primary my-5">Stay current on movie deals!</h1></a>
             <div class="form-group">
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <!-- <button type="submit" class="btn btn-primary">Submit</button> Previous button --> 
+            <button type="button" class="btn btn-primary popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Submit to your email to receive great movie rewards deals!">
+              Submit
+            </button>
           </form>
         </div>
 
@@ -186,5 +189,11 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+      $('.popover-dismiss').popover({
+  trigger: 'focus'
+})
+    </script>
+
   </body>
 </html>
